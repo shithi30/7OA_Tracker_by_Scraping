@@ -4,7 +4,7 @@
 <img width="650" alt="packshots_chaldal" src="https://github.com/shithi30/Unilever-eCom-OLA-SoS-Packshot-7OA-Tracker/assets/43873081/2f53a945-d2a2-4744-8ac8-d7fc8004db01"> <br>
 </p>
 
-## Reporting of Cases with 0 Share of Search (SoS) - Teams Auto Notifications
+## Reporting Cases with 0 Share of Search (SoS) - Teams Notifications
 <p align="center">
 <img width="700" alt="sos1" src="https://github.com/shithi30/Unilever-eCom-OLA-SoS-Packshot-7OA-Tracker/assets/43873081/e86c2670-3342-494b-80a9-acc723931a9a"> <br>
 <img width="700" alt="sos2" src="https://github.com/shithi30/Unilever-eCom-OLA-SoS-Packshot-7OA-Tracker/assets/43873081/a0632de3-fe12-4d1f-ba3d-59771b000171"> <br>
