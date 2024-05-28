@@ -14,7 +14,7 @@
 
 ## Unilever SoS Monitoring
 <p align="center">
-<img width="840" alt="sos4" src="https://github.com/shithi30/Unilever_eCom_OLA-SoS-Packshot-7OA_Tracker/assets/43873081/4d885dc9-4fa0-415a-9ffc-d17b86469b77">
+<img width="780" alt="sos4" src="https://github.com/shithi30/Unilever_eCom_OLA-SoS-Packshot-7OA_Tracker/assets/43873081/4d885dc9-4fa0-415a-9ffc-d17b86469b77">
 </p>
 
 ## Online Availability (OLA) Daily Reporting
