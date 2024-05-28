@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 ## ref
 # - C:\Users\Shithi.Maitra\Unilever Codes\Scraping Scripts\Packshots Daraz
 # - C:\Users\Shithi.Maitra\Unilever Codes\Scraping Scripts\Packshots Daraz Grammage
@@ -123,10 +120,6 @@ folder_gm_zip.close()
 # seperate
 filenames_src = [f for f in filenames_src if f not in filenames_gm_src]
 
-
-# In[3]:
-
-
 # email
 ol = win32com.client.Dispatch("outlook.application")
 olmailitem = 0x0
@@ -177,18 +170,7 @@ for file in files: newmail.Attachments.Add(file)
 # send
 newmail.Send()
 
-
-# In[4]:
-
-
 # stats
 print("Total packshots found: " + str(len(filenames) + len(filenames_gm)))
 elapsed_time = str(round((time.time() - start_time) / 60.00, 2))
 print("Elapsed time to run script (mins): " + elapsed_time)
-
-
-# In[ ]:
-
-
-
-
