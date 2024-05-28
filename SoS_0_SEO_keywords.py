@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 ## import
 import pandas as pd
 import duckdb
@@ -17,10 +14,6 @@ import win32com.client
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import time
-
-
-# In[2]:
-
 
 ## particulars
 brands = ['Camay', 'Pears', 'Signal Paste', 'Clear Shampoo', 'Simple Fac', 'Simple Mask', 'Pepsodent', 'Brylcreem', 'St. Ives', 'St.Ives', 'Sunsilk', 'Sun Silk', 'Lux', 'Ponds', "Pond's", 'Closeup', 'Close Up', 'Dove', 'Clinic Plus', 'Tresemme', 'Tresemmé', 'Glow Lovely', 'Fair Lovely', 'Glow Handsome', 'Axe Body', 'Lifebuoy', 'Vaseline']
@@ -47,25 +40,13 @@ keywords = [
     'Vaslin', 'Veslin', 'Vase lin'
 ]
 
-
-# In[3]:
-
-
 ## preference
 options = webdriver.ChromeOptions()
 options.add_argument('ignore-certificate-errors')
 
-
-# In[4]:
-
-
 ## open window
 driver = webdriver.Chrome(options = options)
 driver.maximize_window()
-
-
-# In[5]:
-
 
 ## comms
 def comms(platform, sos_0_list):
@@ -89,10 +70,6 @@ def comms(platform, sos_0_list):
     newmail.CC = "Eagle Eye - Alerts <93f21d6e.Unilever.onmicrosoft.com@emea.teams.ms>"
     newmail.HTMLbody = sos + "<br>"
     if len(sos) > 0: newmail.Send()
-
-
-# In[6]:
-
 
 ## Shajgoj
 
@@ -153,10 +130,6 @@ display(df_acc_shaj)
 print("0 SoS search terms:\n" + str(sos_0_keywords))
 print("\nElapsed time to report (mins): " + str(round((time.time() - start_time) / 60.00, 2)))
 
-
-# In[7]:
-
-
 ## OHSOGO
 
 # accumulators
@@ -209,10 +182,6 @@ display(df_acc_osgo)
 print("0 SoS search terms:\n" + str(sos_0_keywords))
 print("\nElapsed time to report (mins): " + str(round((time.time() - start_time) / 60.00, 2)))
 
-
-# In[8]:
-
-
 ## Chaldal
 
 # accumulators
@@ -264,10 +233,6 @@ comms("Chaldal", sos_0_keywords)
 display(df_acc_cldl)
 print("0 SoS search terms:\n" + str(sos_0_keywords))
 print("\nElapsed time to report (mins): " + str(round((time.time() - start_time) / 60.00, 2)))
-
-
-# In[9]:
-
 
 ## Pandamart
 
@@ -327,10 +292,6 @@ comms("Pandamart", sos_0_keywords)
 display(df_acc_pmrt)
 print("0 SoS search terms:\n" + str(sos_0_keywords))
 print("\nElapsed time to report (mins): " + str(round((time.time() - start_time) / 60.00, 2)))
-
-
-# In[10]:
-
 
 ## Daraz
 
@@ -393,10 +354,6 @@ display(df_acc_daaz)
 print("0 SoS search terms:\n" + str(sos_0_keywords))
 print("\nElapsed time to report (mins): " + str(round((time.time() - start_time) / 60.00, 2)))
 
-
-# In[11]:
-
-
 ## combine
 qry = '''
 select * from df_acc_shaj union all
@@ -406,10 +363,6 @@ select * from df_acc_pmrt union all
 select * from df_acc_daaz
 '''
 df_acc = duckdb.query(qry).df()
-
-
-# In[12]:
-
 
 ## GSheet
 
@@ -427,22 +380,5 @@ sheet = service.spreadsheets()
 sheet.values().clear(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='0 SoS').execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range="0 SoS!A1", valueInputOption='USER_ENTERED', body={'values': [df_acc.columns.values.tolist()] + df_acc.values.tolist()}).execute()
 
-
-# In[13]:
-
-
 ## close window
 driver.close()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
