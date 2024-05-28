@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 # import
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -93,10 +90,6 @@ for i in range(0, img_count):
 # zip
 folder_zip.close()
 
-
-# In[ ]:
-
-
 # email
 ol = win32com.client.Dispatch("outlook.application")
 olmailitem = 0x0
@@ -145,10 +138,3 @@ newmail.Attachments.Add(str(output_dir) + "\\" + filenames[4]).PropertyAccessor.
 
 # send
 newmail.Send()
-
-
-# In[ ]:
-
-
-
-
