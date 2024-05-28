@@ -12,6 +12,11 @@
 <img width="700" alt="sos4" src="https://github.com/shithi30/Unilever-eCom-OLA-SoS-Packshot-7OA-Tracker/assets/43873081/7b26f251-6f05-4542-a281-fb80cbe4838f"> <br>
 </p>
 
+## Unilever SoS Monitoring
+<p align="center">
+<img width="840" alt="sos4" src="https://github.com/shithi30/Unilever_eCom_OLA-SoS-Packshot-7OA_Tracker/assets/43873081/4d885dc9-4fa0-415a-9ffc-d17b86469b77">
+</p>
+
 ## Online Availability (OLA) Daily Reporting
 <p align="center">
 <img width="640" alt="Capture 2" src="https://github.com/shithi30/Unilever-eCom-OLA-SoS-Packshot-7OA-Tracker/assets/43873081/2be059d5-d5f4-4a60-b61e-4ce371c24387"><br>
