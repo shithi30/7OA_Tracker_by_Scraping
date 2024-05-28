@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 ## Pandamart
 
 # import
@@ -213,10 +210,4 @@ for j in range(0, len_urls):
 # stats
 elapsed_time = time.time() - start_time
 print("Elapsed time to report (mins): " + str(round(elapsed_time / 60.00, 2)))
-
-
-# In[ ]:
-
-
-
 
