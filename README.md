@@ -31,6 +31,10 @@ Unilever e-commerce 7OA KPIs monitoring scripts, include:
 <img width="640" alt="Capture" src="https://github.com/shithi30/Unilever-eCom-OLA-SoS-Packshot-7OA-Tracker/assets/43873081/78c37c75-df42-46ee-a1eb-6f8431715f7b"><br>
 </p>
 
+<p align="center">
+<strong>Note</strong>: All scraping activities have been performed in compliance with *robots.txt* regulations.
+</p>
+
 
 
 
