@@ -32,7 +32,7 @@ Unilever e-commerce 7OA KPIs monitoring scripts, include:
 </p>
 
 <p align="center">
-<strong>Note</strong>: All scraping activities have been performed in compliance with *robots.txt* regulations.
+<strong>Note</strong>: All scraping activities have been performed in compliance with robots.txt regulations.
 </p>
 
 
