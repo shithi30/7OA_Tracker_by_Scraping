@@ -1,3 +1,9 @@
+Unilever e-commerce 7OA KPIs monitoring scripts, include:
+- Reporting of OLA (online availability), SoS (share of search, by keywords) by web-scraping 7 platforms
+- Reporting of imperfect hero images (or, packshots missing quantity info) by means of image processing
+
+**Tech Stack:** Language - `Python`, Scraping Libs - `Selenium, BeautifulSoup, requests`, Google Cloud - `GSheets APIs`, Image Analysis - `PIL`
+
 ### Hero Packshot Reporting/Correction
 <p align="center">
 <img width="650" alt="packshot_daraz" src="https://github.com/shithi30/Unilever-eCom-OLA-SoS-Packshot-7OA-Tracker/assets/43873081/d5655873-be26-4ece-a888-8b3740b7e8b4"> <br>
